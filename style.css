@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  color: white;
+  font-family: 'Lexend Deca', 'Inter' sans-serif;
+}
+
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+
+header{
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+
+section{
+  align-items: center;
+  margin: auto;
+}
+
+.container{
+  max-width: 900px;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  margin: auto;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.left{
+  background-image: url(./images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  border-radius: 0 10px 10px 0;
+  width: 500px;
+  background-size:bottom;
+}
+
+.rigth{
+  margin: auto;
+}
+
+.conteudos{
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  width: 400px;
+}
+
+.conteudo-1{
+  margin: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.conteudo-1 span{
+  color: rgb(163, 113, 163);
+}
+
+.conteudo-1 h2{
+  text-align: justify;
+  margin-left: 40px;
+}
+
+.conteudo-2{
+  margin: 20px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.conteudo-2 p{
+  text-align: justify;
+  margin-left: 40px;
+
+}
+
+.conteudo-3{
+  display: flex;
+  margin: 20px;
+  font-size: 34px;
+}
+
+.sub-conteudo{
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.sub-conteudo span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.first{
+  text-align: center;
+}
